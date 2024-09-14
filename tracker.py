@@ -27,7 +27,6 @@ class Tracker:
 
                 if dist < 35:
                     self.center_points[id] = (cx, cy)
-#                    print(self.center_points)
                     objects_bbs_ids.append([x, y, w, h, id])
                     same_object_detected = True
                     break
