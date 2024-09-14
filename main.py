@@ -20,7 +20,6 @@ cv2.namedWindow('FRAME')
 # cv2.setMouseCallback('FRAME', POINTS)
 
 tracker = Tracker()
-# crosswalk = [(698,394),(0,386),(0,500),(700,500)] japan
 crosswalk = [(393,350),(414,441),(502,440),(479,350)]
 moukhalifoun = set()
 while True:
