@@ -16,6 +16,7 @@ while True:
     frame=cv2.resize(frame,(700,500))
     result = model(frame)
     dimensions=[]
+    
     for index, row in result.pandas().xyxy[0].iterrows():
         x1=int(row['xmin'])
         y1=int(row['ymin'])
